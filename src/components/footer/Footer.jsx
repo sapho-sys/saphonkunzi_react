@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="footer">
             <div>
-                <p>Contact Sapho Nkunzi: (060)-421-6437</p>
+                <p>Contact Sapho Nkunzi: (060)-421-6537</p>
                 <p>twitter/fb/insta @skillo_nabiso</p>
             </div>
             <div>
