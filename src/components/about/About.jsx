@@ -17,7 +17,11 @@ const About = () => {
 
             <div className='about_content'>
                <p>
-                 Sapho Nkunzi is a very proactive person, 
+                 Sapho Nkunzi is a very proactive , humbled and mindful person. I'm also a team player who enjoys collaborating 
+                 and interacting with other coder's when it comes to solving problems , I am comfortable with being uncomfortable and 
+                 very good with handling uncertainty "moving from not knowing to knowing"; I currently hold a Diploma in Accountancy,
+                 two years I spent studying a Certificate in Financial information systems (till phased out 2019). I'm an apprentice at Project Codex 
+                 doing on-the-job training in full-stack web development till end of November 2022.
                </p>
             </div>
          </div>
