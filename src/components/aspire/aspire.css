@@ -1,0 +1,72 @@
+.aspiration_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  .aspiration_container > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+  }
+  
+  .aspiration_container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+  }
+  
+  .aspiration_container > div h3 {
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+  }
+  
+  .experience_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+  }
+  
+  .experience_details {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .experience_details-icon {
+    color: var(--color-primary);
+    margin-top: 6px;
+  }
+  
+  /* ==================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */
+  
+  @media screen and (max-width: 1024px) {
+    .aspiration_container {
+      grid-template-columns: 1fr;
+    }
+  
+    .aspiration_container > div {
+      width: 80%;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+  
+    .aspiration_content {
+      margin: 1rem;
+    }
+  }
+  
+  /* ==================== MEDIA QUERIES (SMALL DEVICES) ==================== */
+  
+  @media screen and (max-width: 600px) {
+    .aspiration_container > div {
+      width: 100%;
+      padding: 2rem 1rem;
+    }
+  
+    .aspiration_container {
+      gap: 1rem;
+    }
+  }
